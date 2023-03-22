@@ -6,4 +6,4 @@ gin-config>=0.1.4
 tensorflow-probability>=0.6.0
 tf-agents>=0.3.0
 tf-slim>=1.0
-git+https://github.com/google-research/tensor2robot#tensor2robot
+# git+https://github.com/google-research/tensor2robot #tensor2robot

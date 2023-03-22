@@ -31,6 +31,7 @@ will be useful for debugging. Actions may also be subselected for prediction,
 since not all actions are needed in the action_order.
 """
 from typing import Optional
+from typing import List
 
 from tensor2robot.utils import tensorspec_utils
 import tensorflow as tf
@@ -42,7 +43,7 @@ class RT1ActionTokenizer:
   def __init__(self,
                action_spec: tensorspec_utils.TensorSpecStruct,
                vocab_size: int,
-               action_order: Optional[list[str]] = None):
+               action_order: Optional[List[str]] = None):
     """Instantiates an RT1ActionTokenizer.
 
     Args:
@@ -97,7 +98,7 @@ class RT1ActionTokenizer:
     return self._action_spec
 
   @property
-  def action_order(self) -> list[str]:
+  def action_order(self) -> List[str]:
     return self._action_order
 
   def tokenize(self, action: tensorspec_utils.TensorSpecStruct) -> tf.Tensor:

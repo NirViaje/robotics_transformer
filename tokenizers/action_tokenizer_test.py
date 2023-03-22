@@ -18,6 +18,7 @@ from tensor2robot.utils import tensorspec_utils
 import tensorflow as tf
 from tf_agents.specs import tensor_spec
 
+tf.enable_eager_execution()
 
 class ActionTokenizerTest(tf.test.TestCase):
 
