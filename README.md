@@ -11,6 +11,16 @@
 # packages in environment at /home/nirj/miniconda3/envs/RT1:
 #
 # Name                    Version                   Build  Channel
+
+python                    3.7.12          hf930737_100_cpython    https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+tensorflow                1.15.5                   pypi_0    pypi
+tensorflow-probability    0.7.0                    pypi_0    pypi
+tf-agents                 0.3.0                    pypi_0    pypi
+gast                      0.2.2                    pypi_0    pypi
+gin                       0.1.6                    pypi_0    pypi
+gin-config                0.1.3                    pypi_0    pypi
+protobuf                  3.19.0                   pypi_0    pypi
+
 _libgcc_mutex             0.1                 conda_forge    https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
 _openmp_mutex             4.5                       2_gnu    https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
 absl-py                   1.4.0                    pypi_0    pypi
@@ -20,9 +30,6 @@ ca-certificates           2022.12.7            ha878542_0    https://mirrors.tun
 cloudpickle               2.2.1                    pypi_0    pypi
 decorator                 5.1.1                    pypi_0    pypi
 dm-tree                   0.1.8                    pypi_0    pypi
-gast                      0.2.2                    pypi_0    pypi
-gin                       0.1.6                    pypi_0    pypi
-gin-config                0.1.3                    pypi_0    pypi
 google-pasta              0.2.0                    pypi_0    pypi
 grpcio                    1.51.3                   pypi_0    pypi
 gym                       0.23.0                   pypi_0    pypi
@@ -49,19 +56,14 @@ openssl                   3.1.0                h0b41bf4_0    https://mirrors.tun
 opt-einsum                3.3.0                    pypi_0    pypi
 pillow                    9.4.0                    pypi_0    pypi
 pip                       23.0.1             pyhd8ed1ab_0    https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
-protobuf                  3.19.0                   pypi_0    pypi
 pygame                    2.1.0                    pypi_0    pypi
-python                    3.7.12          hf930737_100_cpython    https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
 readline                  8.1.2                h0f457ee_0    https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
 setuptools                67.6.0             pyhd8ed1ab_0    https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
 six                       1.16.0                   pypi_0    pypi
 sqlite                    3.40.0               h4ff8645_0    https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
 tensorboard               1.15.0                   pypi_0    pypi
-tensorflow                1.15.5                   pypi_0    pypi
 tensorflow-estimator      1.15.1                   pypi_0    pypi
-tensorflow-probability    0.7.0                    pypi_0    pypi
 termcolor                 2.2.0                    pypi_0    pypi
-tf-agents                 0.3.0                    pypi_0    pypi
 tk                        8.6.12               h27826a3_0    https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
 typing-extensions         4.5.0                    pypi_0    pypi
 werkzeug                  2.2.3                    pypi_0    pypi
