@@ -2,7 +2,7 @@
 
 ## Tips
 
-1. pay attention to the package version while `pip install`, my recipe as below
+1. pay attention to the package version while `pip install`, my recipe as below, especially for the first part
 2. some minor code changes in this repo
 3. Install `tensor2robot` and put `t2r_pb2.py` in `tensor2robot/proto/`, or generate compiled code on your own with [protoc](https://protobuf.dev/reference/python/python-generated/)
 
